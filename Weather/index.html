@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+
+                <div class="search">
+                    <input type="text" id="search" placeholder="Enter Your City...">
+                     <button type="button" onclick="loadData()" id="searchBtn">🔍︎</button>
+                </div>
+
+                <div class="weather">
+                    <h1 class="temp"> --°c </h1>
+                    <h2 class="city">City Name</h2>
+
+                            <div class="details">
+                                <p class="humidity"> Humidity: --% </p>
+                                <p class="wind"> Wind: --km/h </p>
+                            </div>
+                </div>
+    </div>
+
+</body>
+</html>
